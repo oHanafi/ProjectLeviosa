@@ -68,12 +68,12 @@ namespace Lean.Touch
 					var worldReferencePoint = Camera.ScreenToWorldPoint(center);
 
 					// Rotate the transform around the world reference point
-					transform.RotateAround(worldReferencePoint, Camera.transform.forward, degrees);
+					transform.RotateAround(worldReferencePoint, Camera.transform.up, degrees);
 				}
 			}
 			else
 			{
-				transform.rotation *= Quaternion.AngleAxis(degrees, RotateAxis);
+				transform.rotation = Quaternion.AngleAxis(degrees, RotateAxis);
 			}
 		}
 	}
