@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 4272160060
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: couch
+      Dependencies: {}
