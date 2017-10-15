@@ -58,6 +58,14 @@
      <Compile Include="Assets\Editor\CreateAssetBundles.cs" />
      <Compile Include="Assets\LeanTouch\Editor\LeanSelectable_Editor.cs" />
      <Compile Include="Assets\LeanTouch\Editor\LeanTouch_Editor.cs" />
+     <Compile Include="Assets\UIController\Editor\UIControllerInspector.cs" />
+     <Compile Include="Assets\UIController\Editor\UIControllerSettings.cs" />
+     <Compile Include="Assets\UIController\Editor\UIControllerSettingsInspector.cs" />
+     <Compile Include="Assets\UIController\OverrideControllerTools\Editor\AnimatorOverrideControllerExtensions.cs" />
+     <Compile Include="Assets\UIController\OverrideControllerTools\Editor\AnimatorOverrideControllerInspector.cs" />
+     <Compile Include="Assets\UIController\OverrideControllerTools\Editor\DecoratorEditor.cs" />
+     <Compile Include="Assets\UIController\OverrideControllerTools\Editor\OverrideControllerToolsSettings.cs" />
+     <Compile Include="Assets\UITween\Editor\EditorUITween.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\ComponentFactoryStarter\ComponentFactoryStarter.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\ExtensionImport.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\PostProcessBuildPlayer.cs" />
@@ -77,6 +85,7 @@
      <None Include="Assets\license_3rdpartynotice.txt" />
      <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+     <None Include="Assets\UIController\ReleaseNote.txt" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />

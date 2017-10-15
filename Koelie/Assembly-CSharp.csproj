@@ -101,6 +101,15 @@
      <Compile Include="Assets\LeanTouch\Scripts\LeanSelectable.cs" />
      <Compile Include="Assets\LeanTouch\Scripts\LeanSnapshot.cs" />
      <Compile Include="Assets\LeanTouch\Scripts\LeanTouch.cs" />
+     <Compile Include="Assets\UIController\Scripts\UIController.cs" />
+     <Compile Include="Assets\UIController\Scripts\UIControllerStateMachine.cs" />
+     <Compile Include="Assets\UITween\Prefabs\Click Effect Pref\ClickedWaveAnimation.cs" />
+     <Compile Include="Assets\UITween\ScenesExamplesScripts\ActivateOnEnable.cs" />
+     <Compile Include="Assets\UITween\ScenesExamplesScripts\CreateAnimImage.cs" />
+     <Compile Include="Assets\UITween\ScenesExamplesScripts\FollowClick.cs" />
+     <Compile Include="Assets\UITween\Scripts\EasyTween.cs" />
+     <Compile Include="Assets\UITween\Scripts\ReferencedFrom.cs" />
+     <Compile Include="Assets\UITween\Scripts\UITween.cs" />
      <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
@@ -150,6 +159,7 @@
      <None Include="Assets\license_3rdpartynotice.txt" />
      <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+     <None Include="Assets\UIController\ReleaseNote.txt" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
